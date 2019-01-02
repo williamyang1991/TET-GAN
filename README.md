@@ -1,4 +1,5 @@
-![image](https://github.com/williamyang1991/TET-GAN/blob/master/imgs/teaser.png)
+<img src="https://github.com/williamyang1991/TET-GAN/blob/master/imgs/teaser.png" width="80%" height="80%">
+
 # TET-GAN
 
 This is a pytorch implementation of the paper.
@@ -33,9 +34,11 @@ cd TET-GAN/src
 ## Testing Example
 
 - Download a pre-trained model from [[Google Drive]](https://drive.google.com/file/d/1pNOE4COeoXp_-N4IogNS-GavCBbZJtw1/view?usp=sharing) or [[Baidu Cloud]](https://pan.baidu.com/s/1yK6wM0famUwu25s1v92Emw) to `./save/`
-![image](https://github.com/williamyang1991/TET-GAN/blob/master/imgs/example.jpg)
 - Style Transfer with default parameters
   - Results can be found in `./output/`
+  
+  <img src="https://github.com/williamyang1991/TET-GAN/blob/master/imgs/example.jpg" width="50%" height="50%">
+  
 ```
 python test.py
 ```
