@@ -16,8 +16,8 @@ It is provided for educational/research purpose only. Please consider citing our
 ## Usage: 
 
 #### Prerequisites
-· Python 2.7
-· Pytorch 0.4.1
+- Python 2.7
+- Pytorch 0.4.1
 · matplotlib
 · scipy
 · opencv-python
