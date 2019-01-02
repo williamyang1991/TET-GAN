@@ -48,7 +48,7 @@ python test.py --c2s 0
 ```
 - Transfer the style of `26.jpg` onto the text image `2.png` and save the result as `26_2.png`
 ```
-python test.py --style_name ../data/style/1.png --content_name ../data/content/2.png --name 26_1.png
+python test.py --style_name ../data/style/26.png --content_name ../data/content/2.png --name 26_2.png
 ```
 - For black and white text images, use option `--content_type 1`
 ```
