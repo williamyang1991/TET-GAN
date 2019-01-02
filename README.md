@@ -37,7 +37,7 @@ cd TET-GAN/src
 - Style Transfer with default parameters
   - Results can be found in `./output/`
   
-  <img src="https://github.com/williamyang1991/TET-GAN/blob/master/imgs/example.jpg" width="50%" height="50%">
+<img src="https://github.com/williamyang1991/TET-GAN/blob/master/imgs/example.jpg" width="50%" height="50%">
   
 ```
 python test.py
