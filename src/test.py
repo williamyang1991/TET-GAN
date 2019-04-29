@@ -3,7 +3,7 @@ import torch
 from models import TETGAN
 from utils import load_image, to_data, to_var, visualize, save_image
 import os
-#os.environ["CUDA_VISIBLE_DEVICES"] = "0"
+os.environ["CUDA_VISIBLE_DEVICES"] = "7"
 
 def main():
     # parse options
