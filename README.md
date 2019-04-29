@@ -77,7 +77,7 @@ dataset/style2/train/2.png
 python train.py 
 ```
 Saved model can be found at `../save/`
-- Use `--help` to view more finetuning options
+- Use `--help` to view more training options
 ```
 python train.py --help
 ```
