@@ -59,7 +59,15 @@ python test.py --style_name ../data/style/1.png --content_name ../data/content/4
 
 ### Full Training
 
-- Prepare dataset 
+- Prepare dataset and copy it to `../data/dataset/` where the images are arranged in this way
+```
+dataset/style1/train/1.png
+dataset/style1/train/2.png
+...
+dataset/style2/train/1.png
+dataset/style2/train/2.png
+...
+```
 
 ### Oneshot Training
 
@@ -70,6 +78,7 @@ python test.py --style_name ../data/style/1.png --content_name ../data/content/4
 ```
 python oneshotfinetune.py --style_name ../data/oneshotstyle/1-train.png
 ```
+Saved model can be found at `../save/`
 - Finetune TET-GAN on a new style image without its glyph counterpart (unsupervised oneshot training)
 ```
 python oneshotfinetune.py --style_name ../data/oneshotstyle/1-train.png --supervise 0
