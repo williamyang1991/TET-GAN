@@ -59,7 +59,7 @@ python test.py --style_name ../data/style/1.png --content_name ../data/content/4
 
 ### Full Training
 
-- Prepare dataset and copy it to `../data/dataset/` where the images are arranged in this way
+- Prepare dataset and copy it to `../data/dataset/` where the images are arranged in this way (See [[Dataset]](http://www.icst.pku.edu.cn/struct/Projects/TETGAN.html) for one example)
 ```
 dataset/style1/train/1.png
 dataset/style1/train/2.png
@@ -68,16 +68,18 @@ dataset/style2/train/1.png
 dataset/style2/train/2.png
 ...
 ```
-  - See [[Dataset]](http://www.icst.pku.edu.cn/struct/Projects/TETGAN.html) for one example
+  - The image consists of a style map and a content map as follows
  
+ <img src="https://github.com/williamyang1991/TET-GAN/blob/master/data/oneshotstyle/1-train.png" width="50%" height="50%">
+
 - Train TET-GAN with default parameters
 ```
-%run train.py 
+python train.py 
 ```
 Saved model can be found at `../save/`
 - Use `--help` to view more finetuning options
 ```
-python oneshotfinetune.py --help
+python train.py --help
 ```
   
 ### Oneshot Training
