@@ -33,9 +33,9 @@ cd TET-GAN/src
 ```
 ## Testing Example
 
-- Download a pre-trained model from [[Google Drive]](https://drive.google.com/file/d/1pNOE4COeoXp_-N4IogNS-GavCBbZJtw1/view?usp=sharing) or [[Baidu Cloud]](https://pan.baidu.com/s/1yK6wM0famUwu25s1v92Emw) to `./save/`
+- Download a pre-trained model from [[Google Drive]](https://drive.google.com/file/d/1pNOE4COeoXp_-N4IogNS-GavCBbZJtw1/view?usp=sharing) or [[Baidu Cloud]](https://pan.baidu.com/s/1yK6wM0famUwu25s1v92Emw) to `../save/`
 - Style Transfer with default parameters
-  - Results can be found in `./output/`
+  - Results can be found in `../output/`
 
 <img src="https://github.com/williamyang1991/TET-GAN/blob/master/imgs/example.jpg" width="50%" height="50%">
 
@@ -57,7 +57,28 @@ python test.py --style_name ../data/style/1.png --content_name ../data/content/4
 
 ## Training Examples
 
-We are cleanning up the related code and it will be coming soon.
+### Full Training
+
+- Prepare dataset 
+
+### Oneshot Training
+
+- Download a pre-trained model from [[Google Drive]](https://drive.google.com/file/d/1pNOE4COeoXp_-N4IogNS-GavCBbZJtw1/view?usp=sharing) or [[Baidu Cloud]](https://pan.baidu.com/s/1yK6wM0famUwu25s1v92Emw) to `../save/`
+  - Specify the pretrained model to load using the option `--load_model_name`
+
+- Finetune TET-GAN on a new style/glyph image pair (supervised oneshot training)
+```
+python oneshotfinetune.py --style_name ../data/oneshotstyle/1-train.png
+```
+- Finetune TET-GAN on a new style image without its glyph counterpart (unsupervised oneshot training)
+```
+python oneshotfinetune.py --style_name ../data/oneshotstyle/1-train.png --supervise 0
+```
+Saved model can be found at `../save/`
+- Use `--help` to view more finetuning options
+```
+python oneshotfinetune.py --help
+```
 
 ### Contact
 
