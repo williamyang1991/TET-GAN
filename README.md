@@ -66,7 +66,7 @@ dataset/style2/train/1.png
 dataset/style2/train/2.png
 ...
 ```
-  - The image consists of a text image and a style image as follows
+  - The training image consists of a text image and a style image as follows
  
  <img src="https://github.com/williamyang1991/TET-GAN/blob/master/data/oneshotstyle/1-train.png" width="30%" height="30%">
 
