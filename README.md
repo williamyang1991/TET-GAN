@@ -57,7 +57,7 @@ python test.py --style_name ../data/style/1.png --content_name ../data/content/4
 
 ### Full Training
 
-- Prepare dataset and copy it to `../data/dataset/` where the images are arranged in this way (See [[Dataset]](http://www.icst.pku.edu.cn/struct/Projects/TETGAN.html) for one example)
+- Prepare dataset in `../data/dataset/` where the images are arranged in this way (See [[Dataset]](http://www.icst.pku.edu.cn/struct/Projects/TETGAN.html) for one example)
 ```
 dataset/style1/train/1.png
 dataset/style1/train/2.png
