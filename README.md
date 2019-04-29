@@ -10,8 +10,6 @@ Accepted by AAAI Conference on Artificial Intelligence (AAAI), 2019.
 
 [[Project]](http://www.icst.pku.edu.cn/struct/Projects/TETGAN.html) | [[Paper]](https://arxiv.org/abs/1812.06384) | [[Dataset]](http://www.icst.pku.edu.cn/struct/Projects/TETGAN.html)
 
-**This code currently only provides functions for testing. We are cleanning up the training code and the full code will be released soon.**
-
 It is provided for educational/research purpose only. Please consider citing our paper if you find the software useful for your work.
 
 
