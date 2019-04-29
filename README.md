@@ -68,7 +68,18 @@ dataset/style2/train/1.png
 dataset/style2/train/2.png
 ...
 ```
-
+  - See [[Dataset]](http://www.icst.pku.edu.cn/struct/Projects/TETGAN.html) for one example
+ 
+- Train TET-GAN with default parameters
+```
+%run train.py 
+```
+Saved model can be found at `../save/`
+- Use `--help` to view more finetuning options
+```
+python oneshotfinetune.py --help
+```
+  
 ### Oneshot Training
 
 - Download a pre-trained model from [[Google Drive]](https://drive.google.com/file/d/1pNOE4COeoXp_-N4IogNS-GavCBbZJtw1/view?usp=sharing) or [[Baidu Cloud]](https://pan.baidu.com/s/1yK6wM0famUwu25s1v92Emw) to `../save/`
