@@ -474,7 +474,7 @@ class TETGAN(nn.Module):
     
     # (x, y_real, y) represents (x, y, y')
     # x, y, y_real: images at current level
-    # x2, y2, y2_real: images ar last level
+    # x2, y2, y2_real: images at last level
     # w: fading out weight. 
     def one_pass(self, x, x2, y, y2, y_real, y2_real, level, w):
         Lrec = self.update_autoencoder(x, x2, level, w)
