@@ -4,7 +4,7 @@ import torch
 from models import TETGAN
 from utils import load_image, to_data, to_var, visualize, save_image, load_oneshot_batchfnames, prepare_batch, weights_init
 import os
-os.environ["CUDA_VISIBLE_DEVICES"] = "0"
+#os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 
 def main():
     # parse options
