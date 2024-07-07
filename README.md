@@ -8,7 +8,7 @@ Shuai Yang, Jiaying Liu, Wenjing Wang and Zongming Guo.
 TET-GAN: Text Effects Transfer via Stylization and Destylization, 
 Accepted by AAAI Conference on Artificial Intelligence (AAAI), 2019.
 
-[[Project]](http://www.icst.pku.edu.cn/struct/Projects/TETGAN.html) | [[Paper]](https://arxiv.org/abs/1812.06384) | [[Dataset]](http://www.icst.pku.edu.cn/struct/Projects/TETGAN.html)
+[[Project]](http://www.icst.pku.edu.cn/struct/Projects/TETGAN.html) | [[Paper]](https://arxiv.org/abs/1812.06384) | [[Dataset]](https://williamyang1991.github.io/projects/AAAI2019/TETGAN.html)
 
 It is provided for educational/research purpose only. Please consider citing our paper if you find the software useful for your work.
 
@@ -57,7 +57,7 @@ python test.py --style_name ../data/style/1.png --content_name ../data/content/4
 
 ### Full Training
 
-- Prepare dataset in `../data/dataset/` where the images are arranged in this way (See [[Dataset]](http://www.icst.pku.edu.cn/struct/Projects/TETGAN.html) for one example)
+- Prepare dataset in `../data/dataset/` where the images are arranged in this way (See [[Dataset]](https://williamyang1991.github.io/projects/AAAI2019/TETGAN.html) for one example)
 ```
 dataset/style1/train/1.png
 dataset/style1/train/2.png
